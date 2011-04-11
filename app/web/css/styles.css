@@ -1,0 +1,10 @@
+td.date-tooltip  {background: #EFB34A}
+td.date-tooltip  a {background: #EFB34A}
+
+h2 {
+font: italic 24px/35px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+}
+span.delete {
+  color: #21759B;
+  cursor: pointer;
+}

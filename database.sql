@@ -1,0 +1,8 @@
+CREATE TABLE `wp_events_calendar` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(40) NULL,
+  `description` TEXT NULL,
+  `date` DATE NOT NULL,
+  `user_id` BIGINT(20) UNSIGNED DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8
