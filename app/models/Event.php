@@ -1,6 +1,6 @@
 <?php
 
-require_once '/../core/ActiveRecord.php';
+require_once dirname(__FILE__) . '/../core/ActiveRecord.php';
 
 class Event extends ActiveRecord {
 

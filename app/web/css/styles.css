@@ -8,3 +8,12 @@ span.delete {
   color: #21759B;
   cursor: pointer;
 }
+
+.event-description {
+  width: 600px;
+  height: 200px;
+}
+
+.simplemodal-container {
+  height:310px;
+}
