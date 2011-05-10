@@ -36,7 +36,7 @@ $(function() {
         var monthRepresentation = date.getMonth() < 9 ? ("0" + (date.getMonth() +1)) : (date.getMonth() +1);
         var dayRepresentation = date.getDate() < 10 ? ("0" + date.getDate()) : date.getDate();
         var dateRepresentation = date.getFullYear() + "-" + monthRepresentation + "-" + dayRepresentation;
-        var eventPosition = calendar.eventDates.indexOf(dateRepresentation);
+        var eventPosition = $.inArray(dateRepresentation, calendar.eventDates);
     
         if (eventPosition != -1) {
           className = "date-tooltip";
